@@ -7,13 +7,13 @@ title: Zn's Blogs
 subtitle:
 description:
 author: Mr Zn
-language: zh-CN 
+language: en 
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://blogs.jiangnuoyi.cn/
-root: /v2
+url: https://blogs.jiangnuoyi.cn/
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -77,4 +77,6 @@ theme: icarus
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: https://github.com/jiangxin0503/jiangxin0503.github.io
+  branch: master
